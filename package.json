@@ -1,0 +1,19 @@
+{
+  "name": "file-system-gallery",
+  "version": "0.0.1",
+  "description": "A file api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
