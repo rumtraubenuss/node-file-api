@@ -1,6 +1,9 @@
 {
   "name": "file-system-gallery",
   "version": "0.0.1",
+  "engines": {
+    "node": ">=5.0.0"
+  },
   "description": "A file api",
   "main": "index.js",
   "scripts": {
