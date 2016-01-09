@@ -4,7 +4,7 @@ const fs = require('fs')
 const path = require('path')
 
 const dirName = 'public/images'
-const dirPath = path.join(__dirname, dirName)
+const dirPath = path.join(__dirname, ...dirName.split('/'))
 
 const express = require('express')
 const app = express()
