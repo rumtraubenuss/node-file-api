@@ -8,7 +8,7 @@ const dirPath = path.join(__dirname, ...dirName.split('/'))
 
 const express = require('express')
 const app = express()
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 8081
 const router = express.Router()
 
 router.get('/', (req, res) => {
