@@ -10,6 +10,7 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 8081
 const router = express.Router()
+const cors = require('cors')
 
 router.get('/', (req, res) => {
   const fileNames = get_file_names()
@@ -19,6 +20,7 @@ router.get('/', (req, res) => {
   })
 })
 
+app.use(cors())
 app.use('/api', router)
 app.use(express.static('public'))
 app.listen(port)
